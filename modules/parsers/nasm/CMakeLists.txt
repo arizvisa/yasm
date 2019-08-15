@@ -19,3 +19,4 @@ YASM_ADD_MODULE(parser_nasm
     parsers/nasm/nasm-parse.c
     nasm-token.c
     )
+list(APPEND YASM_MODULES parser_tasm)

@@ -22,4 +22,4 @@ YASM_ADD_MODULE(preproc_nasm
     preprocs/nasm/nasmlib.c
     preprocs/nasm/nasm-eval.c
     )
-
+list(APPEND YASM_MODULES parser_tasm)
